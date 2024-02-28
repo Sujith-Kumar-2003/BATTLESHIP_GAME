@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Random;
 
 /**
  * The BattleShipGame class represents a simple Battleship game between a human player and a computer player.
@@ -16,7 +15,6 @@ public class BattleShipGame {
     private Player humanPlayer;
     private Player computerPlayer;
     private final Scanner sc = new Scanner(System.in);
-    public static final int BOARD_SIZE = 8; // Ensuring BOARD_SIZE is accessible
     private static final int NUM_SHIPS = 6;
     private static final int NUM_GRENADES = 4;
     private boolean humanMissNextTurn = false;
