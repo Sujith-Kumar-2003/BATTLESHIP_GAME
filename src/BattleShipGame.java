@@ -29,7 +29,7 @@ public class BattleShipGame {
         this.humanPlayer = new Player("Human", true);
         this.computerPlayer = new Player("Computer", false);
     }
-
+//This is the Start of the game, it is like init for a class.
     private void setupGame() {
         System.out.println("Welcome to Battleship!");
         gameBoard.initializeBoard();
